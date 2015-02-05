@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" version="1.1" fill="white" preserveAspectRatio="xMidYMid" >
+<!-- 	<rect x="-100" y="-100" width="300" height="300" fill="black"/>		-->
+
+	
+	
+<set id="f0" attributeName="visibility" to="visible"  dur=".2s" begin="f2.end; .3s" />
+<set id="f1" attributeName="visibility" to="visible"  dur=".2s" begin="f0.end" />
+<set id="f2" attributeName="visibility" to="visible"  dur=".2s" begin="f1.end" />
+
+<g transform="translate(1,0)" >
+<rect x="4" y="2" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="4"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="4"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="4"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="7" y="2" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="7"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="8"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="6"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="10" y="2" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="11" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="10" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="9"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+</g>
+
+<g transform="translate(0,1)" >
+<rect x="12" y="4" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="12" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="4"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="12" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="4"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="12" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="4"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="12" y="7" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="12" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="7"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="12" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="8"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="12" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="6"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="12" y="10" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="12" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="11" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="12" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="10" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="12" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="9"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+</g>
+
+<g transform="translate(-1,0)" >
+<rect x="10" y="12" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="10" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="9"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="11" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="7" y="12" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="6"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="7"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="8"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="4" y="12" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="4"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="4"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="4"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="12" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+</g>
+
+<g transform="translate(0,-1)" >
+<rect x="2" y="10" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="10" dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="9"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="11" dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="2" y="7" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="6"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="3"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="7"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="8"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+<rect x="2" y="4" width="2" height="2">  <!--attributeType="XML"-->
+	<animate attributeName="x"		to="3"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="y"		to="4"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="width"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	<animate attributeName="height"	to="1"  dur=".001s" begin="f2.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="y"		to="4"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="width"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	<animate attributeName="height"	to="2"  dur=".001s" begin="f1.begin" fill="freeze"/>
+	
+	<animate attributeName="x"		to="1"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="y"		to="4"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="width"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+	<animate attributeName="height"	to="3"  dur=".001s" begin="f0.begin" fill="freeze"/>
+</rect>
+</g>
+</svg>

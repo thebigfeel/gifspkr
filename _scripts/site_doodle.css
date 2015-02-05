@@ -1,0 +1,518 @@
+
+body{
+width:100%;
+height:100%;
+margin:0;
+/*background: url(/_images/speakers/101.gif);/**/
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background:#000;
+overflow:hidden;
+}
+
+.logo {
+width:100%;
+height:100%;
+background-image:url(/_images/SEANFEELEY_header_dark.svg);
+}
+
+audio {
+/*display:none;/**/
+}
+input {
+/*display:none;/**/
+}
+img.noipoe {position:absolute; z-index: 1;
+width:100%;
+background-size:cover;}
+
+/*.jsgif canvas {
+height:100%;
+margin:0;
+position:absolute; z-index: -1;
+top: 0; 
+overflow:hidden;
+background:#ff0055;
+}
+*/
+
+
+
+#gifspkrWatermark>span{
+display:none;
+}
+#gifspkrWatermark{
+position:fixed;
+bottom:0;
+right:0;
+width:144px;
+height:39px;
+z-index: 999; 
+color:white;
+background-color:rgba(0,0,0, 0.6);
+background-image:url('/gifspkr_logo_temp.png');
+content:before:"test";
+}
+#audioBar {
+top:0;
+left:0;
+	position:fixed;
+	z-index: 999; 
+	height:2em;
+	padding:10px;
+	background:#000;
+	/*background:rgba(0,0,0, 0.6);*/
+   
+	text-align: center;
+   
+	transition:			.2s;
+	-o-transition:		.2s;
+	-ms-transition:		.2s;
+	-moz-transition:		.2s;
+	-webkit-transition:	.2s;
+
+}
+#audioNetwork {
+display:inline;
+}
+#searchBar {
+display:inline;
+}
+#audioInfo {
+display:inline;
+}
+#audioControls {
+display:inline;
+}
+#albumArt{
+/*display:none;*/
+height:1.5em;
+}
+#trackTitle a{
+color:white;
+font-family:sans-serif;
+	}
+
+/*
+select#audioNetwork option[value="sound_cloud"]{
+background-color:black;
+background-image:url('/_images/soundcloud_logo_white.png');
+content:'';
+}
+select#audioNetwork option[value="local_file"]{
+background-color:black;
+background-image:none;
+}
+option{
+color:white;
+background-color:blue;
+background-image:url('/_images/soundcloud_logo_white.png');
+
+}
+option:focus{
+color:white;
+background:#fff;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gifContainer,.jsgif,.jsgif_toolbar{display:inline;}
+canvas{
+  /*min-width: 100%;
+  min-height: 100%;/**/
+  height:357px;/**/
+  margin:0;padding:0;border:0;
+  display:inline;
+}
+div.jsgif{
+margin:0;padding:0;border:0;
+width:10;height:10;
+}
+
+
+
+
+
+
+#gifContainer.nope{
+width:100%;
+height:100%;
+margin:0;
+position:fixed; z-index: -1;
+top:0; bottom:0; left:0; right:0;
+overflow:hidden;
+background:#000;
+}
+
+
+#playPause{
+width:10%;
+height:10%;
+margin:auto;
+position:fixed;
+left:0;
+top:50%;
+overflow:hidden;
+}
+
+
+
+.jsgif canvas.nope{
+  /*min-width: 100%;
+  min-height: 100%;/**/
+  height:100%;/**/
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  
+  top: 0; left: 0; bottom: 0; right: 0;/**/
+}
+
+
+/*
+#advancedControls input {
+	width:900px;
+}/**/
+
+button {
+color:#fff;
+background:#000;
+border:1px solid #fff;
+border-radius:3px;
+font-family:sans-serif;
+	
+}
+button:hover{
+background:#333;
+}
+
+
+}
+#advancedControls.hidden {
+	opacity:0.0;
+	transition:			.8s;
+	-o-transition:		.8s;
+	-ms-transition:		.8s;
+	-moz-transition:	.8s;
+	-webkit-transition:	.8s;
+}
+#advancedControls {
+	opacity:1.0;
+	padding:1em;
+	position:fixed;
+	bottom:4em;
+	left:0;
+	color:#fff;
+	font-family:sans-serif;
+	background: rgba(0,0,0,.6);
+	transition:			.2s;
+	-o-transition:		.2s;
+	-ms-transition:		.2s;
+	-moz-transition:	.2s;
+	-webkit-transition:	.2s;
+}
+
+
+#audioBar.hidden, #visBar.hidden {
+	transition:			1.8s;
+	-o-transition:		1.8s;
+	-ms-transition:		1.8s;
+	-moz-transition:	1.8s;
+	-webkit-transition:	1.8s;
+}
+#audioBar.hidden{
+	top:-4em;
+}
+#visBar.hidden {
+	bottom:-4em;
+}
+
+
+#visBar {
+	position:fixed;
+	z-index: 999; 
+	left: 0;
+	width: 100%;
+	height:4em;
+	background:rgba(0,0,0, 0.6);
+   
+	text-align: center;
+   
+	transition:			.2s;
+	-o-transition:		.2s;
+	-ms-transition:		.2s;
+	-moz-transition:		.2s;
+	-webkit-transition:	.2s;
+
+}
+#audioBar {
+    top: 0; 
+}
+#visBar {
+    bottom: 0; 
+}
+#visInfo a{
+color:#fff;
+font-family:sans-serif;
+}
+
+/*table{
+width:512px;
+}*/
+tr{border:1px solid white;}
+td{border:1px solid white;margin:0;padding:0;/**/}
+
+
+#eqVis{
+	background:rgba(0,0,0,0.8);/**/
+	margin:auto;padding:0;
+	width:256px;
+	border: 1px solid white;
+	height:96px;/**/
+}
+#eqControls{
+	margin-top:40px;
+}
+
+
+#advancedControls>div>input[type=range]{
+border:1px solid white;/**/
+width:100%;
+}
+
+
+
+input[type=range]{
+    /*border-radius:4px;*/
+	-webkit-appearance: none;
+	width:100px;
+	cursor:pointer;
+	background:none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 18px;
+    width: 12px;
+    border-radius: 4px;
+    background: #ddd;
+}
+
+
+#audioFreq{
+margin:0;padding:0;border:0;
+display:inline;
+width:268px;
+
+	margin-left:13px;/*1px border + 12px width*/
+}
+#audioFreq::-webkit-slider-runnable-track {
+
+		border: none;
+		background:none;
+}
+
+#audioFreq::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background: #f05;
+}
+#audioFreq:focus{
+    border:none;
+	background: #ccc;
+}
+
+#audioLow,#audioHigh{
+writing-mode: bt-lr; /* IE */
+-webkit-appearance: slider-vertical; /* WebKit */
+
+width:12px;
+height:96px;
+border:0;margin:0;
+padding:0;
+border:1px solid white;
+}
+#audioHigh,#audioLow{
+margin:0;padding:0;border:0;
+height:96px;
+}
+#audioHigh::-webkit-slider-runnable-track ,
+#audioLow::-webkit-slider-runnable-track {
+}
+#audioHigh::-webkit-slider-thumb ,
+#audioLow::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background: #f05;
+}
+
+
+/*
+#audioLow::-webkit-slider-runnable-track {
+}
+#audioLow::-webkit-slider-thumb{
+    -webkit-appearance: none;
+	border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+
+*/
+
+
+/*
+input[type=range] {
+    -webkit-appearance: none;
+    
+    border: 1px solid white;
+    
+    width: 300px;
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+input[type=range]:focus {
+    outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+
+input[type=range]:-moz-focusring{
+    outline: 1px solid white;
+    outline-offset: -1px;
+}
+input[type=range]::-ms-track {
+    width: 300px;
+    height: 16px;
+    background: #ddd;
+    border: none;
+    border-radius: 10px;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    outline: none;
+    background: #777;
+    border-radius: 10px 0 0 10px;
+}
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+}
+input[type=range]:focus::-ms-track {
+    background: #ccc;
+}
+input[type=range]:focus::-ms-fill-lower {
+    background: #888;
+}
+
+input[type=range]::-webkit-slider-runnable-track ,input[type=range]::-moz-range-track ,input[type=range]::-ms-track
+{
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+/*
+::-webkit-scrollbar              { width:10px; background:rgba(0,0,0, 0.6);}
+::-webkit-scrollbar-button       {  }
+::-webkit-scrollbar-track        { 	}
+::-webkit-scrollbar-track-piece  {  }
+::-webkit-scrollbar-thumb        { 
+	border: none;
+    border-radius: 6px;
+    background: rgba(255,255,255,1); }
+::-webkit-scrollbar-corner       {  }
+::-webkit-resizer                {  }
+
+.thinbar::-webkit-scrollbar      { 
+	background:rgba(0,0,0, 0.6);
+	width:5px;
+}
+.thinbar::-webkit-scrollbar-button       {  }
+.thinbar::-webkit-scrollbar-track        { border-left:1px solid rgba(50,50,50, 0.8);	}
+.thinbar::-webkit-scrollbar-track-piece  {  }
+.thinbar::-webkit-scrollbar-thumb        { 
+	border: none;
+    border-radius: 6px;
+    background: rgba(255,255,255,1); }
+.thinbar::-webkit-scrollbar-corner       {  }
+.thinbar::-webkit-resizer                {  }
+
+
+
+*/
+
+
+
+
+
+
+
+
+

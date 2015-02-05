@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>gifspkr</title>
+  <link rel="icon" type="image/png" href="/_images/gifspkr_favicon_512.png"/>
+  <link rel="apple-touch-icon" href="/_images/gifspkr_appicon_512.png">
+  <link rel="stylesheet" type="text/css" href="_scripts/site.css"/>  
+  <script type="text/javascript" src="//connect.soundcloud.com/sdk.js"></script>
+  <script type="text/javascript" src="_scripts/libgif.js"></script>
+  <script type="text/javascript" src="_scripts/gifPlaylist.js"></script>
+  <script type="text/javascript" src="_scripts/gifspkr.js"></script>
+  <script type="text/javascript" src="_scripts/app.js"></script>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+
+
+
+<div id="audioBar" class="hideable">
+	<div id="audioSourceDropDown">
+		<div id="audioSourceButton">
+			<img src="/_images/soundcloud_logo_white.png" /><!--#9660;-->
+		</div>
+		<div id="audioSourceMenu">
+			<ul>
+				<li id="soundcloud"><img src="/_images/soundcloud_logo_white.png" /></li>
+				<li id="mymusic">My Music</li>
+				<li id="linein">Mic / LineIn</li>
+			</ul>
+		</div>
+	</div>
+	<div id="searchBar">
+		<button id="search_button"><span><img src="_images/button_search.svg"/></span></button>
+		<input id="song_input" type="text" placeholder="Search SoundCloud or paste SoundCloud URL here"  style="display:inline"	><!-- or paste SoundCloud URL here"-->
+	</div>
+	<div id="audioInfo">
+		<img id="albumArt" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
+		<!--<div id="artistName"></div>-->
+		<div id="trackTitle"></div>
+	</div>
+	
+	<div id="audioControls">
+		<button id="previousSong"> |&#9668 </button>
+		<audio controls id="audioPlayer" src=""></audio>
+		<button id="nextSong"> &#9658| </button>
+		
+	</div>
+
+</div>
+
+
+<div id="visBar" class="hideable">
+
+	<div id="visInfo" style="visibility:hidden">
+		<a target="_blank"><span>View this GIF on</span><div id="imageNetwork"><img src='/_images/imgur-logo-embed.png' /></div></a>
+	</div>
+	
+	<div id="toolBar">
+		<button id="showAdvanced"><img src="_images/button_options.svg"/></button>
+		
+	</div>
+	
+	<div id="visControls">
+		<button id="previousGif"	style="display:none"><< GIF</button>
+		<button id="randomGif"		style="display:none">RANDOM GIF</button>
+		<button id="nextGif"		style="display:inline">GIF &#9658|</button>
+	</div>
+</div>
+
+
+
+<div id="advancedControls" class="hideable"					style="display:inline">
+			<strong>GIF options</strong>
+			<!--<div class="advanced">-->
+			<input type="checkbox" id="gifReverse"><label for="gifReverse">Reverse</label>
+			<input type="checkbox" id="gifLoop"><label for="gifLoop">Loop</label>
+			<!--</div>-->
+			<div class="advanced"><label for="gifIn">Start:			 </label><input value="0.0" min="0.0" max="1.0" step="any" type="range" id="gifIn"></div>
+			<div class="advanced"><label for="gifOut">End:			 </label><input value="1.0" min="0.0" max="1.0" step="any" type="range" id="gifOut"></div>
+			<div class="advanced"><label for="gifSmooth">Smooth:     </label><input value="0.3" min="0.0" max="0.9" step="any" type="range" id="gifSmooth"></div>
+			<BR>
+			<strong>Audio options</strong>
+			<input type="checkbox" checked="true" id="autoRange"><label for="autoRange">Auto Range</label>
+			<div class="advanced"><label for="audioSmooth">Smooth:	 </label><input value="0.7" min="0.0" max="1.0" step="any" type="range" id="audioSmooth"></div>
+			<div class="advanced"><label for="audioWidth">Focus:</label><input value="8"   min="5"   max="11"  step="1"   type="range" id="audioWidth"></div>
+			<div id="eqControls">
+				<div>
+					<input orient="vertical" value=".08" min="0.0" max="1.0" step="any" type="range" id="audioLow">
+					<canvas id="eqVis" width="1024" height="256"></canvas>
+					<input orient="vertical" value=".92" min="0.0" max="1.0" step="any" type="range" id="audioHigh">
+				</div>
+				<div>
+					<input value=".200" min="0.0" max="1.0" step="any" type="range" id="audioFreq">
+				</div>
+			</div>
+			
+</div>
+
+
+<div id="gifspkrWatermark">
+<!--<img src="/gifspkr_logo_full_static.svg" />-->
+<span>gifspkr</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="gifContainer">
+<div id="bigPlayButton"> &#9658 </div>
+
+			<img
+				id="speaker"
+				src="_images/landing.jpg" 
+				rel:animated_src="_images/landing.gif"
+				rel:auto_play="0"
+			/>
+
+</div>
+
+
+<div id="welcomeMessage">
+
+<p>gifspkr is in beta and works best in desktop Chrome. Try dragging in your own gifs and songs!</p>
+</div>
+
+<div id="social" style="display:none">
+<h1>Welcome to gifspkr</h1>
+<h4>A celebration of music and gif culture.</h4>
+<p>Press play to get started.  Try dragging in your own gifs and songs.</p>
+<p>gifspkr is beta and works best in desktop Chrome. Try dragging in your own gifs and songs!</p>
+<p>Please share comments and feedback with @TheRealBigFeel</p>
+<p>gifspkr is a project by <a href="http://seanfeeley.com">Sean Feeley</a></p>
+</div>
+
+			
+			
+			
+			
+			
+
+
+
+</body>
+
+</html>
